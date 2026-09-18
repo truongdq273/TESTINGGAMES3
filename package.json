@@ -1,0 +1,19 @@
+{
+  "name": "testinggame2-security-fixes",
+  "version": "1.1.0",
+  "private": true,
+  "scripts": {
+    "start:frog": "node ech-bat-muoi/server.js",
+    "start:chicken": "node space-chicken-shooter/server.js",
+    "start:cow": "node tim-bo-classroom-game/server/ws-server.js",
+    "test": "node --test tests/*.test.cjs",
+    "start:motorbike": "node motorbike-runner/server.cjs",
+    "start:tower": "node tower-builder/server.cjs"
+  },
+  "dependencies": {
+    "ws": "8.21.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
